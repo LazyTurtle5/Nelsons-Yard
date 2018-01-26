@@ -1,0 +1,367 @@
+*{
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0px !important;
+    -moz-osx-font-smoothing: grayscale;
+
+} 
+
+@font-face {
+    font-family: "Antonio-Light";
+    src: url('fonts/Antonio-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: "Antonio-Regular";
+    src: url('fonts/Antonio-Regular.ttf') format('truetype');
+}
+
+/*********************************
+Backgrounds
+*********************************/
+
+.bg-carterjonas {
+    background-color: #F3F3F3;
+    padding-bottom: 10px;
+}
+
+.wrap {
+    width: 100% !important;
+    background-color: white;
+    padding-top: 200px;
+    margin-top: -200px;
+}
+
+.wrap2 {
+    width: 100%;
+    background-color: #fFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.wrap3 {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+
+
+/*********************************
+Buttons & Logos
+*********************************/
+
+img {
+	padding: 0;
+}
+
+img.myLogo {
+    max-width: 240px;
+    padding: 80px 0;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: 0;
+    outline-style: none;
+    color: #98523e;
+}
+
+.btn-cream,
+.btn-red {
+	font-family: "Antonio-Regular", din-condensed, Lato, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 1s;
+    min-width: 150px;
+}
+
+.btn-cream {
+	color: #99513D;
+    background-color: #F3EEDC;
+    border-radius: 0px;
+}
+
+.btn-cream:hover {
+	color: #F3EEDC;
+    background-color: #99513D;
+}
+
+.btn-red {
+	color: #F3EEDC;
+    background-color: #99513D;
+    border-radius: 0px;
+}
+
+.btn-red:hover,
+.nav-btn-red:hover {
+	color: #99513D;
+    background-color: #F3EEDC;
+}
+
+.nav-btn-red {
+    font-family: "Antonio-Regular", din-condensed, Lato, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 1s;
+    max-width: 300px;
+    color: #F3EEDC;
+    background-color: #99513D;
+    border-radius: 0px;
+    
+}
+
+
+.btn-lg {
+    font-size: 14px !important;
+}
+
+.logoCarterJonas,
+.logoNorthminster {
+    max-width: 160px;
+}
+
+.logoHudsonMoody {
+    max-width: 100px;
+}
+
+.btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    }
+}
+
+
+/*********************************
+Navigation
+*********************************/
+
+nav {
+    border-bottom: 1px solid #fFF;
+    height: 90px;
+}
+
+.navbar {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #fFF;
+}
+
+.nav-link {
+    font-family: "Antonio-Regular", din-condensed, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.67) !important;
+}
+
+.bg-faded {
+    background-color: #f3f3f3;
+}
+
+
+/*********************************
+Font Styles
+*********************************/
+
+.title-heading {
+	padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h5, .para-heading-2 {
+	text-transform: uppercase;
+}
+
+.para-heading-1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.smallHeading {
+	font-family: "Antonio-Regular", din-condensed, sans-serif;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 0.35px;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+}
+
+.subTitle {
+	font-weight: 600;
+    font-family: 'Antonio-Light', din-condensed, sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #505050;
+    text-transform: uppercase;
+}
+
+.display-4 {
+    font-size: 3.6rem !important;
+    font-weight: 300 !important;
+    line-height: 5.5rem !important;
+    text-decoration: underline;
+    text-decoration-color: #98523e;
+    font-family: "Antonio-Light", din-condensed, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+.download {
+	font-family: "Antonio-Regular", din-condensed, sans-serif;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 0.35px;
+    display: inline-block;
+}
+
+p {
+	font-family: 'Lato' arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4A4A4A;
+    line-height: 24px;
+}
+
+.contact {
+    font-size: 1.6rem;
+    padding: 50px 0px;
+    color: #99513D;
+    text-decoration: none !important;
+    font-family: "Antonio-Regular", din-condensed, Lato, sans-serif;
+}
+
+h2 {
+    font-family: 'Antonio-Regular', din-condensed, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: #1D1C1B;
+    letter-spacing: 0.06px;
+    text-transform: uppercase;
+}
+
+.formtext {
+    font-family: 'Lato' arial, sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 50px !important;
+    color: #4A4A4D;
+}
+
+/*********************************
+Modal
+*********************************/
+
+.modal-header {
+    border-bottom: 1px solid #e0e0e1;
+    padding: 25px;
+}
+
+button.close {
+    padding: 30px;
+    outline: none;
+}
+
+
+.nylogomodal {
+    max-width: 300px;
+    margin: 0, auto;
+    padding: 30px 30px 30px;
+}
+
+.formlogos {
+    margin-right: 50px !important;
+    max-width: 138px !important;
+}
+
+.formlogos2 {
+    max-width: 100px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/*********************************
+Media Queries
+*********************************/
+
+
+@media (min-width: 576px) { ... }
+
+
+@media (max-width: 767px) {
+    
+
+   
+
+
+
+}
+
+
+@media (min-width: 768px) { 
+	img.myLogo {
+		max-width: 300px;
+	}
+
+    .nav-btn-red {
+        margin-right: 50px;
+    }
+	
+}
+
+@media (max-width: 991px) {
+    body {
+        text-align: center;
+    }
+
+    .smallHeading {
+        position: relative;
+    }
+
+    .location-smallHeading {
+        position: relative;
+        padding-top: 75px;
+    }
+
+    .title-heading {
+        padding-bottom: 40px;
+    }
+
+    .period-title-heading {
+        padding-top: 60px;
+    }
+
+    .bodytxt {
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 992px) { 
+    .nav-btn-red {
+        margin-right: 50px;
+    }
+
+	.para-heading-1 {
+		text-align: left;
+	}
+}
+
+
+@media (min-width: 1200px) { ... }
